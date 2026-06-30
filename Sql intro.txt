@@ -1,0 +1,10 @@
+SQL - Structured Query Lamguage
+Structured - well organized
+Query - set of instructions
+Language - mediator between two persons
+SQL is a programming language which is used to store data in databases
+DataBase - collection of information
+Here we have two types of databases 
+1.Relational Database management system - In relational database we can store data in the form of tables
+Database management system - In database management system we can store data in the form of json format
+table - A table is collection of fields and records
