@@ -1,0 +1,18 @@
+Commands in sql
+Here in sql we have mainly five commands 
+DDL - Data Definition Language
+DML - Data Manipulation Language
+DCL - Data Control Language
+TCL - Transaction Control Language 
+DQL - Data Query Language
+
+DDl - Data Definition Language is used for the database and table arcitecture
+----in this we have commands like create,alter,drop,rename,truncate.
+DML - Data Manipulation Language is used to manipulae the data 
+----in this we have commanda like update,delete,insert
+DCL - Data Control Language is used grant permission and to remove permission
+----in this we have commands grant,revoke,
+TCL - Transaction Control Language is used to perform operations on table data using ddl commands
+----in this we have commit,rollback and save point
+DQL - Data Query Language is used to display the data
+----in this we have select command  
