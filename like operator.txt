@@ -1,0 +1,29 @@
+write query
+1.names starts with vowel
+2. names ends with vowel
+3. name start and and ends with vowels
+
+
+SELECT *
+FROM Customers
+WHERE name LIKE 'A%'
+   OR name LIKE 'E%'
+   OR name LIKE 'I%'
+   OR name LIKE 'O%'
+   OR name LIKE 'U%';
+
+
+SELECT *
+FROM Customers
+WHERE name LIKE '%A'
+   OR name LIKE '%E'
+   OR name LIKE '%I'
+   OR name LIKE '%O'
+   OR name LIKE '%U';
+
+
+SELECT *
+FROM Customers
+WHERE (name LIKE 'A%' OR name LIKE 'E%' OR name LIKE 'I%' OR name LIKE 'O%' OR name LIKE 'U%')
+  AND
+      (name LIKE '%A' OR name LIKE '%E' OR name LIKE '%I' OR name LIKE '%O' OR name LIKE '%U');
